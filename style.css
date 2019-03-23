@@ -1,0 +1,247 @@
+/* Copyright 2006 Opserty & Clantemplates.com */
+body {
+	background-color:#E5F3FB;
+	margin:0;
+	padding:0;
+	font-family:Tahoma, Verdana, Arial, Sans-serif;
+	font-size:12px;
+}
+/* OP:LINKS */
+a, a:link, a:visited {
+	color:inherit;
+	font-weight:bold;
+	text-decoration:underline;
+}
+a:hover {
+	text-decoration:none;
+	color:inherit;
+}
+/* OP:STRUCTURE */
+div#header {
+	background:#e6f3fb url(images/header_bg.gif) repeat-x;
+	width:100%;		height:267px;
+}
+div#content, div#h-content {
+	width:950px;
+	margin:2px auto;
+}
+div#h-content {
+	margin:0 auto;
+}
+div#middle {
+	width:444px;
+	margin:0 5px;
+	float:left;
+}
+* html div#middle {
+	width:441px;
+}
+div#left, div#right {
+	float:left;
+	width:243px;
+	padding:0;
+	margin:0;
+	background-color:#ffffff;
+}
+div#right {
+	float:right;
+
+}
+* html div#right {
+	float:right;
+}
+
+
+div#footer {
+	background:#000 url(images/footer_bg.gif) repeat-x;
+	height:19px;
+	padding: 20px;
+	color:#fff;
+	font-weight:bold;
+}
+	
+div .clear {
+	clear:both;
+}
+/* OP|HEADER */
+div#date {
+	float:right;
+	margin:32px 5px 0 0;
+	height:15px;
+	font-weight:bold;
+
+}
+div#nav {
+	margin:0 10px 0 0;
+	float:right;
+	padding-top:0;
+	height:38px;
+	color:#FFF;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+div#nav img {
+	margin:0 15px;
+}
+div#overlap {
+	float:left; 
+	margin-top:0;
+	background:#000000 url(images/banner.gif) no-repeat;
+	width:264px;	height:131px;
+	padding:60px 0 0 20px; 
+	font-size:1.5em;
+	font-style:italic;
+	text-transform:uppercase;
+	color:#000000;
+}
+* html div#overlap {
+	padding-top:80px;
+	width:254px;	height:111px;	
+}
+div#overlap li {
+	list-style-image:url(images/bullet.gif);
+	margin-bottom:10px;
+}
+div#overlap li a {
+	font-weight:normal;
+	color:#000;
+}
+#h-img {
+	margin:21px 0 0 0;
+	float:right;
+}
+* html #h-img {
+	margin:19px 0 0 0;
+}
+/* OP|MIDDLE */
+div#middle div#wrap {
+	margin:0 auto;
+	width:100%;
+	font-size:11px;
+}
+div#middle h1 {
+	padding:12px 0 0 10px;
+	width:100%;		height:27px;
+	margin:0;
+	background:#000 url(images/center_h1.gif) repeat-x;
+	color:#fff;
+	font-size:12px;
+	text-transform:uppercase;
+}
+div#middle h2 {
+	background-color:#89C8EB;
+	color:#FFFFFF;
+	width:100%;
+	margin: 5px 0 0 0 ;
+	padding:5px  0 5px 10px;
+	font-size:12px;
+}
+div#middle p {
+	width:100%;
+	margin:4px auto;
+	padding:3px;
+	line-height:150%;
+}
+/* OP:LEFT OP:RIGHT */
+div#left div.box, 
+div#right div.box {
+	width:auto;
+	padding:0 2px;
+	background-color:#FFF;
+}
+div#left h1, div#right h1 {
+	background:#000 url(images/side_h1.gif) no-repeat;
+	margin:2px 0 0 0;
+	padding:12px 0 0 12px;
+	color:#FFFFFF;
+	font-size:12px;
+	text-transform:uppercase;
+	width:228px;
+	height:25px;
+}
+div#left ul, div#right ul, 
+div#left li, div#right li {
+	list-style-image:none;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+div#left li, div#right li {
+	background:#000 url(images/side_list_bg.gif) no-repeat;
+	width:229px;
+	height:21px;
+	padding:8px 0 0 10px ;
+	margin:0;
+}
+#left a, #right a {
+	color:#000;
+}	
+.small-red {
+	color:#FF0000;
+	font-size:11px;
+	text-transform:capitalize;
+}
+
+#left .small-red a, #left .small-red a:link, #left .small-red a:visited,
+#right .small-red a, #right .small-red a:link, #right .small-red a:visited  
+{
+	color:#FF0000;
+}
+
+#nav a:link, #nav a:visited {
+	color:#FFF;
+	font-weight:bold;
+	text-decoration:none;
+}
+#nav a:hover {
+	text-decoration:underline;
+	color:#FFF;
+}
+#footer a {
+	color:#fff;
+}
+#overlap a {
+	text-decoration:none;
+}
+
+/* OP:FORMS source unknown */
+	form {  
+	  margin: 0;  
+	  padding: 0;
+	  font-size:11px; 
+	  width: 100%; 
+	}
+	
+	form fieldset {
+	  border:1px solid #666;
+	  padding: 10px;      
+	  margin: 5px;
+	}
+	
+	form fieldset legend {font-weight:bold; }
+	
+	form label { 
+		display: block;  
+		float: left; 
+		width: 150px; 
+		padding: 0; 
+		margin: 5px 0 0;
+		text-align: right; 
+	}
+		
+	form input, form textarea {
+		width:auto;     		
+		margin:5px 0 0 10px; 	
+		border: 1px solid #89C8eB;
+		background-color:#b3e3ff;
+		color:#000;
+		font-family:  Tahoma, Verdana, Arial, Sans-serif;
+		padding:3px;
+	}
+	form textarea { font-size:11px}
+	form input#reset {margin-left:0px;}
+	textarea { overflow: auto; }
+	form .required{font-weight:bold;} 
+	form br {clear:left;}

@@ -1,0 +1,10 @@
+/* CSS Document */
+
+div#middle {
+	width:687px;
+	margin:0 5px;
+	float:left;
+}
+* html div#middle {
+	width:674px;
+}
